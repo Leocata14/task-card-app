@@ -1,0 +1,31 @@
+.card {
+    
+}
+
+.card, .card-footer {
+    background-color: #ffffa5;
+    border: none;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card.completed, 
+.card.completed .card-footer,
+.card.completed i {
+    background-color: #EEE;
+    color: #CCC;
+}
+
+.card-footer {
+    text-align: right;
+}
+
+i {
+    padding-right:.5rem;
+    color: red;
+}
+
+
+
